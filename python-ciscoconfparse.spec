@@ -1,6 +1,6 @@
 Name:           python-ciscoconfparse
 Version:        1.2.47
-Release:        1
+Release:        1%{?dist}
 Url:            https://pypi.python.org/pypi/ciscoconfparse/
 Summary:        Parse, Audit, Query, Build, and Modify Cisco IOS-style configurations
 License:        GPLv3
