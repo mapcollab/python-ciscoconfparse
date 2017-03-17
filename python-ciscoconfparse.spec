@@ -47,3 +47,6 @@ cat filelist-%{name}-%{version}-%{release}-temp | \
 /usr/lib/python2.7/site-packages/*
 
 %changelog
+* Fri Mar 17 2017 Michal Gawlik <michal.gawlik@thalesgroup.com> 1.2.47-1
+- new package built with tito
+
