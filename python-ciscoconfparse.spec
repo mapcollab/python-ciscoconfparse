@@ -12,6 +12,9 @@ Requires:       python-dns
 Requires:       python-colorama
 BuildRequires:  python-devel
 BuildRequires:  python-setuptools
+BuildRequires:  python-ipaddr
+BuildRequires:  python-dns
+BuildRequires:  python-colorama
 BuildArch:      noarch
 
 %description
