@@ -1,6 +1,6 @@
 Name:           python-ciscoconfparse
 Version:        1.2.47
-Release:        1%{?dist}
+Release:        2%{?dist}
 Url:            https://pypi.python.org/pypi/ciscoconfparse/
 Summary:        Parse, Audit, Query, Build, and Modify Cisco IOS-style configurations
 License:        GPLv3
@@ -50,6 +50,13 @@ cat filelist-%{name}-%{version}-%{release}-temp | \
 /usr/lib/python2.7/site-packages/*
 
 %changelog
+* Fri Jun 09 2017 Michal Gawlik <michal.gawlik@thalesgroup.com> 1.2.47-2
+- tito: use ReleaseTagger (michal.gawlik@thalesgroup.com)
+- setup.py: dependencies are handled at rpm level
+  (tomasz.rostanski@thalesgroup.com)
+- python-ciscoconfparse.spec: add missing build required packages
+  (tomasz.rostanski@thalesgroup.com)
+
 * Fri Mar 17 2017 Michal Gawlik <michal.gawlik@thalesgroup.com> 1.2.47-1
 - new package built with tito
 
